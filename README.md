@@ -2,6 +2,14 @@ Use just for cyber_ethical resons, no for hacking!
 # Brute Force
 ## Attack & Mitigation
 
+### Description:
+
+Scripts that demonstrate the brute force attack.
+
+The first script is an attack tool which at the end of its run produces a file with the passwords.
+
+The second script is a mitigation tool, which detects brute force attacks. Based on reading logs.
+
 ### preinstalls:
 
 $ pip3 install paramiko
