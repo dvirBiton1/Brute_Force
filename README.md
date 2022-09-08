@@ -16,7 +16,13 @@ $ pip3 install paramiko
 
 $ pip3 install colorama
 
+$ pip3 install pyfiglet
+
 ### How to use:
+First use the port_sanning to see if the target port 22 is open:
+* open terminal where the code "port_scanning"
+* command: python port_scanning.py <ip> (ip target)
+
 For the attack tool:
 * open terminal where the code "bf_attack"(the word list need to in the same folder).
 * command: python bf_attack.py <ip> (ip target) -u <uesr name> -P <worldList> (txt file with passwords parse by enter)
