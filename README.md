@@ -1,16 +1,24 @@
-Use just for cyber_ethical resons, no for hacking!
+
+Use for cyber ethical purposes only! Not for hacking !
 # Brute Force
-## Attack & Mitigation
+## Attacking & Mitigation
+## Written by Ohad Shirazi & Dvir Biton.
+## About This Project:
 
-### Description:
+In this project there are four parts using Python.
+In the project we used the following libraries:
+paramiko
+colorama
+pyfiglet
+scapy
 
-Scripts that demonstrate the brute force attack.
+The first part "IP_MAC_Scanner.py" script purpose is to scan the IP and MAC address in the local network
 
-The first script is an port scanning tool show you witch ports are open on a target.
+The second part "port_scanner.py" script purpose is to scan the open ports with the attacked IP
 
-The second script is an attack tool which at the end of its run produces a file with the passwords.
+The third part "bf_attack.py" script is the main attack tool - in order to guess the password
 
-The third script is a mitigation tool, which detects brute force attacks. Based on reading logs.
+The fourth part "bf_mitigation.py" script is the mitigation tool, which detects brute force attacks. Based on reading logs.
 
 ### preinstalls:
 
@@ -23,24 +31,24 @@ $ pip3 install pyfiglet
 $ pip3 install scapy
 
 ### How to use:
-First use the IP_MAC_Scanner to see witch victems are.
-* open terminal where the code "IP_MAC_Scanner"
+First use the IP_MAC_Scanner to see witch victims are in the local network
+* open terminal in the same directory of the code "IP_MAC_Scanner"
 * command: python port_scanning.py
 
 NOTE: You need to add your gateway at the code.
 
 
-Secound use the port_sanning to see if the target port 22 is open:
-* open terminal where the code "port_scanning"
+Second use the port_sanning to see if the victim's port 22 is open:
+* open terminal in the same directory of the code "port_scanning"
 * command: python port_scanning.py <ip> (ip target)
 
-For the attack tool:
-* open terminal where the code "bf_attack"(the word list need to in the same folder).
-* command: python bf_attack.py <ip> (ip target) -u <uesr name> -P <worldList> (txt file with passwords parse by enter)
+Now we will start the attack with the bture force tool:
+* open terminal in the same directory of the code "bf_attack.py"(the word list have to be in the same directory).
+* command: python bf_attack.py <ip> (ip target) -u <username> -P <worldList> (txt file with passwords parse by enter)
           
-          example: python bf_attack.py 13.20.12.45 -u admin -P worldList
+          example: python bf_attack.py 13.20.12.45 -u admin -P worldList.txt
 
-For the mitigation tool:
-* open terminal where the code "bf_mitigation".
+In order to check your mitigation tool' you have to run it before the attack:
+* open terminal in the same directory of the code "bf_mitigation.py"
 * command: python bf_mitigation.py
 
