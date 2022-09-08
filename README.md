@@ -20,8 +20,17 @@ $ pip3 install colorama
 
 $ pip3 install pyfiglet
 
+$ pip3 install scapy
+
 ### How to use:
-First use the port_sanning to see if the target port 22 is open:
+First use the IP_MAC_Scanner to see witch victems are.
+* open terminal where the code "IP_MAC_Scanner"
+* command: python port_scanning.py
+
+NOTE: You need to add your gateway at the code.
+
+
+Secound use the port_sanning to see if the target port 22 is open:
 * open terminal where the code "port_scanning"
 * command: python port_scanning.py <ip> (ip target)
 
