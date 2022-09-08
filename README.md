@@ -6,9 +6,11 @@ Use just for cyber_ethical resons, no for hacking!
 
 Scripts that demonstrate the brute force attack.
 
-The first script is an attack tool which at the end of its run produces a file with the passwords.
+The first script is an port scanning tool show you witch ports are open on a target.
 
-The second script is a mitigation tool, which detects brute force attacks. Based on reading logs.
+The second script is an attack tool which at the end of its run produces a file with the passwords.
+
+The third script is a mitigation tool, which detects brute force attacks. Based on reading logs.
 
 ### preinstalls:
 
