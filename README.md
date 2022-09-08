@@ -51,4 +51,8 @@ Now we will start the attack with the bture force tool:
 In order to check your mitigation tool' you have to run it before the attack:
 * open terminal in the same directory of the code "bf_mitigation.py"
 * command: python bf_mitigation.py
+          
+          
+![image](https://user-images.githubusercontent.com/92723105/189150399-0476d006-9d92-4d04-9b17-f5089ce6e409.png)
+
 
